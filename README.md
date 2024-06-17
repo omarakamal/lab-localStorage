@@ -51,18 +51,11 @@
 
 - The showListing() Function should do the following IN ORDER:
 
-    1. Get the listing from the localStorage and store it in a variable **HINT** Remember we stored the object in the localStorage as a String. TURN IT BACK TO AN OBJECT
-
-    2. Get the div with id one-item-container using getElementById or querySelector or any other method youd like
-
-    3. Create 3 elements **Hint createElement()**: img, h2, p
-
-    4. change the src of the image you just created to the image from the localStorage
-
-    5. change the innerHTML of the h2 to the title from localStorage
-
-    6. change the innerHTML of the p tag to the price of the item from localStorage
-
-    7. append all of these elements to the page as the children of the one-item-container.
-
-    8. Celebrate because you are Finished 🎉🥳💃🕺
+1.    Get the listing from the localStorage and store it in a variable **HINT** Remember we stored the object in the localStorage as a String. TURN IT BACK TO AN OBJECT
+2.    Get the div with id one-item-container using getElementById or querySelector or any other method youd like
+3.    Create 3 elements **Hint createElement()**: img, h2, p
+4.    change the src of the image you just created to the image from the localStorage
+5.    change the innerHTML of the h2 to the title from localStorage
+6.    change the innerHTML of the p tag to the price of the item from localStorage
+7.    append all of these elements to the page as the children of the one-item-container.
+8.    Celebrate because you are Finished 🎉🥳💃🕺
