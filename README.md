@@ -51,6 +51,7 @@
 
 - The showListing() Function should do the following IN ORDER:
 
+
     1. Get the listing from the localStorage and store it in a variable **HINT** Remember we stored the object in the localStorage as a String. TURN IT BACK TO AN OBJECT
 
     2. Get the div with id one-item-container using getElementById or querySelector or any other method youd like
