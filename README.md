@@ -66,3 +66,9 @@
     7. append all of these elements to the page as the children of the one-item-container.
 
     8. Celebrate because you are Finished 🎉🥳💃🕺
+
+
+- BONUS 1: Add a third page for the shopping cart. In the listing page if the user clicks add to shopping cart, it should add the item to the shopping cart. Remember to use relative pathing when linking to a new page.
+
+- BONUS 2: Check in the shopping cart if there are duplicate values
+
