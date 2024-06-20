@@ -1,5 +1,4 @@
 function showListing(){
-   let listing =  localStorage.getItem('listing')
 
 
    console.log('listing',listing)
