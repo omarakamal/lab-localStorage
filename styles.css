@@ -72,6 +72,11 @@ nav ul li a:hover {
     margin-bottom: 50px;
 }
 
+img {
+    height: 50px;
+    width: 50px
+}
+
 .product {
     display: inline-block;
     margin: 0 20px;
