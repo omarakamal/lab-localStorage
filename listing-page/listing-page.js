@@ -15,6 +15,8 @@ function showListing(){
     h2.innerHTML = listing.title;
     p.innerHTML = listing.price;
 
+    
+    img.style.width = "500px"
     DivOne.appendChild(img)
     DivOne.appendChild(h2)
     DivOne.appendChild(p)
