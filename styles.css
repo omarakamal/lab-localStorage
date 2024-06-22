@@ -58,8 +58,7 @@ nav ul li a:hover {
     font-size: 18px;
     text-decoration: none;
     transition: background-color 0.3s ease;
-    cursor: pointer; /* Change cursor to pointer when hovering over */
-
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -67,7 +66,6 @@ nav ul li a:hover {
 }
 
 .products {
-    /* padding: 50px 0; */
     text-align: center;
     margin-bottom: 50px;
 }
@@ -123,88 +121,62 @@ footer {
     margin: 0 10px;
 }
 
-
-
-#products-container{
-
-    /* display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width:50vw */
-    
-
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Horizontal offset, vertical offset, blur radius, color */
-
+#products-container {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-#cart-img{
+#cart-img {
     height: 20px;
-    width:20px
+    width: 20px;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-    gap: 20px; /* Gap between grid items */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .prod {
-    margin-bottom: 10px; /* Add some spacing between product elements */
+    margin-bottom: 10px;
 }
 
- #cart-num{
-    color:red;
-    /* background-color: red;
-    border-radius: 50%;
-    width: 10px; */
-} 
+#cart-num {
+    color: red;
+}
 
-#outer-container{
-
+#outer-container {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     height: 80vh;
 }
 
-#item-container{
-
+#item-container {
     height: 80vh;
 }
 
-#shopping-cart-container{
-    
+#shopping-cart-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-    gap: 80px; /* Gap between grid items */
-
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
 }
 
+.checkout-button {}
 
-.checkout-button{
-
-}
-
-
-#checkout-button-container{
+#checkout-button-container {
     display: flex;
     justify-content: center;
-    margin:80px;
+    margin: 80px;
 }
 
-.listing-images{
-    width: 300px; /* Set maximum width to 300px */
-    height: 300px; /* Set maximum height to 300px */
-
+.listing-images {
+    width: 300px;
+    height: 300px;
 }
-
-
 
 .img-container {
     position: relative;
     overflow: hidden;
-    /* box-shadow: 19px 10px 20px rgba(0, 0, 0, 0.1); Adjust the shadow intensity on hover */
-
 }
 
 .img-container img {
@@ -212,57 +184,46 @@ footer {
 }
 
 .img-container:hover img {
-    transform: scale(1.1); /* Increase the scale factor to zoom in more */
-    /* filter: blur(.9px); Adjust the blur intensity as needed */
-
+    transform: scale(1.1);
 }
 
-
-#one-item-container{
-    display:flex;
+#one-item-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center
+    align-items: center;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
+#one-item-container img {
+    max-width: 100%;
+    height: auto;
+}
 
-#shopping-section{
+#one-item-container h3 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+#one-item-container p {
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+#one-item-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#shopping-section {
     margin: 40px;
 }
 
-
-
 .testimonial-card {
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 300px;
-    margin: 20px;
-}
-
-.testimonial-content {
-    text-align: center;
-}
-
-.testimonial-text {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.testimonial-author {
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.testimonial-company {
-    font-size: 12px;
-    color: #777;
-}
-
-
-
-.testimonial-card {
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     border-radius: 10px;
     padding: 20px;
     max-width: 300px;
@@ -271,8 +232,7 @@ footer {
     overflow: hidden;
     border: 1px solid transparent;
     transition: border-color 0.3s, box-shadow 0.3s;
-    box-shadow: 30px 5px 100px rgba(0, 0, 0, 0.1);
-
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial-content {
@@ -306,9 +266,6 @@ footer {
     border-radius: inherit;
 }
 
-.testimonial-card:hover {
-}
+.testimonial-card:hover {}
 
-
-
-#link-cart{}
+#link-cart {}
