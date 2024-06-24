@@ -1,10 +1,12 @@
-
-
 function seeListing(title , price, picture){
-console.log(title , price, picture)
 
-localStorage.setItem('listing',JSON.stringify({title,price,picture}))
+let listing = {
+    title:title,
+    price: price,
+    picture: picture
+}
 
+localStorage.setItem('listing',JSON.stringify(listing))
 
 window.location.href = '../listing-page/listingPage.html';
 
